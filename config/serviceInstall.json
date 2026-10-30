@@ -1,0 +1,16 @@
+{
+  "defaultService": "llm",
+  "services": {
+    "llm": {
+      "python": [
+        3,
+        9
+      ],
+      "requirements": [],
+      "downloadScript": "downloadGemmaModel.py",
+      "script": "serve.py",
+      "model": "model/gemma-4-E4B-it-Q4_K_M.gguf",
+      "port": 8080
+    }
+  }
+}
